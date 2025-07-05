@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="24dp"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lütfen kişisel bilgilerinizi giriniz"
+            android:textColor="@color/green_primary"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ad Soyad"
+            android:inputType="textPersonName"
+            android:backgroundTint="@color/green_primary"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/etTc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="TC Kimlik No (11 hane)"
+            android:inputType="number"
+            android:maxLength="11"
+            android:backgroundTint="@color/green_primary"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/etBirthDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Doğum Tarihi"
+            android:focusable="false"
+            android:clickable="true"
+            android:backgroundTint="@color/green_primary"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/etPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Telefon No (+905xxxxxxxxx)"
+            android:inputType="phone"
+            android:maxLength="13"
+            android:backgroundTint="@color/green_primary"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="6 Haneli Şifre"
+            android:inputType="numberPassword"
+            android:maxLength="6"
+            android:backgroundTint="@color/green_primary"
+            android:layout_marginBottom="24dp" />
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Kayıt Ol"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/green_primary"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+</ScrollView>

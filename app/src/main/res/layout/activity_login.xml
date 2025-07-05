@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- Başlık -->
+        <TextView
+            android:id="@+id/tvWelcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hoşgeldiniz"
+            android:textColor="@color/green_primary"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_marginTop="48dp"
+            android:layout_marginBottom="32dp" />
+
+        <!-- TC Kimlik No -->
+        <EditText
+            android:id="@+id/etTc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="TC Kimlik No (11 hane)"
+            android:inputType="number"
+            android:maxLength="11"
+            android:backgroundTint="@color/green_primary"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Şifre -->
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="6 Haneli Şifre"
+            android:inputType="numberPassword"
+            android:maxLength="6"
+            android:backgroundTint="@color/green_primary"
+            android:layout_marginBottom="32dp" />
+
+        <!-- Giriş Butonu -->
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Giriş Yap"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/green_primary"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvCreditStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kredi durumu"
+            android:textSize="18sp"
+            android:textColor="@color/green_primary"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/etCreditAmount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Kredi tutarı"
+            android:inputType="numberDecimal"
+            android:layout_marginBottom="16dp" />
+
+        <Spinner
+            android:id="@+id/spinnerTerm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/tvResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="16sp"
+            android:textColor="@color/green_primary"
+            android:layout_marginBottom="24dp" />
+
+        <Button
+            android:id="@+id/btnApply"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Kredi Başvurusu"
+            android:backgroundTint="@color/green_primary"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnPay"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Kredi Öde"
+            android:backgroundTint="@color/green_primary"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+</ScrollView>

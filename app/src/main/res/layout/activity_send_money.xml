@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/tvMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lütfen para gönderilecek kullanıcı bilgilerini girin"
+        android:textSize="18sp"
+        android:textColor="@color/green_primary"
+        android:layout_marginBottom="24dp" />
+
+    <EditText
+        android:id="@+id/etReceiverTc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Gönderilecek Kullanıcı TC (11 hane)"
+        android:inputType="number"
+        android:maxLength="11"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/etAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tutar"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Gönder"
+        android:backgroundTint="@color/green_primary"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+</LinearLayout>

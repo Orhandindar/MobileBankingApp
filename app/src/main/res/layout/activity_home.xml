@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ORHAN DİNDAR"
+        android:textAllCaps="true"
+        android:textSize="24sp"
+        android:textColor="@color/green_primary"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/tvBalance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bakiye: 0 ₺"
+        android:textSize="20sp"
+        android:textColor="@color/green_primary"
+        android:gravity="center"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/btnTransactions"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Hesap Hareketleri"
+        android:backgroundTint="@color/green_primary"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btnSendMoney"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Para Gönder"
+        android:backgroundTint="@color/green_primary"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btnPayBills"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Fatura Öde"
+        android:backgroundTint="@color/green_primary"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btnApplyCredit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Kredi Başvurusu"
+        android:backgroundTint="@color/green_primary"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Çıkış Yap"
+        android:backgroundTint="#D32F2F"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+</LinearLayout>

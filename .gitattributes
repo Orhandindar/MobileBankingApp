@@ -1,0 +1,10 @@
+*.kt linguist-detectable=true
+*.java linguist-detectable=true
+
+*.cpp linguist-detectable=false
+*.c linguist-detectable=false
+*.h linguist-detectable=false
+*.m linguist-detectable=false
+*.mm linguist-detectable=false
+*.mk linguist-detectable=false
+CMakeLists.txt linguist-detectable=false

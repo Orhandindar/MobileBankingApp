@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "919241784709",
+    "project_id": "mobilebankingapp-61fe5",
+    "storage_bucket": "mobilebankingapp-61fe5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:919241784709:android:70333154656c77847a58ec",
+        "android_client_info": {
+          "package_name": "com.orhan.mobilebankingapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARJHMj9RiSl_R50Su4elez7D8U60lg_kw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
